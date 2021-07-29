@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8728964e-f0a2-4361-ab43-eea63f3c9316" extendedConfigurationObject="b1f594d2-00a1-43fd-bb21-df062df93840">
+  <producedTypes>
+    <objectType typeId="dc36a60c-7839-4034-ae0e-942d83e311e9" valueTypeId="90a19d8f-6734-404b-a2cb-4b7ec81b0de0"/>
+    <refType typeId="e7c55899-2717-43e0-b202-441f34c58fb6" valueTypeId="5c7312ef-420f-4f9e-aed6-523f6e93f4ec"/>
+    <selectionType typeId="70c30815-9d58-48f6-b34a-653ee29e7ba2" valueTypeId="098336f1-b5e0-4917-b7bd-4ad1937162c1"/>
+    <listType typeId="ed36c09f-d793-4ae9-9146-e9f60fc447da" valueTypeId="f58ae781-ee9f-4ce4-b3c7-93ed64701a63"/>
+    <managerType typeId="d8a820d4-b910-436b-b4e9-d25f9b173525" valueTypeId="653e730c-dd16-4242-8fcc-aca7e975f92e"/>
+  </producedTypes>
+  <name>ШтатноеРасписание</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

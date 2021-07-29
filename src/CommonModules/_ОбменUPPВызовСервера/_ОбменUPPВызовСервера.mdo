@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="434db1db-7c9d-4a82-b45c-c54842b53bff">
+  <name>_ОбменUPPВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен UPPВызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7aaba1d8-0f0d-4f3f-ab05-b932fb1f4a8b">
+  <name>_ERP_UPP</name>
+  <synonym>
+    <key>ru</key>
+    <value>ERP UPP</value>
+  </synonym>
+  <rootURL>UppErp</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="0f1af2f5-c6aa-47a3-a2fe-650afdc596d2">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="ef118ecf-f0e2-4fcc-b455-d91a71ae1c9b">
+      <name>Ping</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ping</value>
+      </synonym>
+      <handler>Ping</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="7387aaa7-196a-45f6-b8be-8f5e3061fcd9">
+    <name>DownloadData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Download data</value>
+    </synonym>
+    <template>/DownloadData</template>
+    <methods uuid="6f968f95-fcb4-4006-974f-46160010d73c">
+      <name>DownloadData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Download data</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>DownloadData</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

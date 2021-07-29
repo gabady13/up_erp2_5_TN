@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="33c6eaaa-6975-45ca-b9b2-ee8b45f2aaa5">
+  <name>_Интеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5c993588-4df2-41ef-9334-052b76bc349d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="27132e2c-801e-482e-9680-6a0381b5266d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="09b3f959-5431-4d54-863e-c69910ed3822"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="926ed0d5-d0f8-4c66-a47f-e39ba892a07e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6672acf5-6bcc-4bb6-a563-1b8778cd8ed8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1f6c07ea-ffbe-49ba-becb-9614ee3a8642"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a43d95ee-9b3d-4a08-8e3e-05d825a276d5"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Инт_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Инт_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="536d7002-5bb0-4a8e-ae5e-52a72b7d53f8">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.Инт_ОсновнаяРоль</roles>
+  <commonModules>CommonModule._ОбменUPP</commonModules>
+  <commonModules>CommonModule._ОбменUPPВызовСервера</commonModules>
+  <commonModules>CommonModule.КадровыйУчетБазовый</commonModules>
+  <exchangePlans>ExchangePlan._ОбменUPP</exchangePlans>
+  <httpServices>HTTPService._ERP_UPP</httpServices>
+  <constants>Constant._УзелОбменаUPP</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.ШтатноеРасписание</catalogs>
+</mdclass:Configuration>
