@@ -49,4 +49,5 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <catalogs>Catalog.ШтатноеРасписание</catalogs>
+  <documents>Document.УвольнениеСписком</documents>
 </mdclass:Configuration>
